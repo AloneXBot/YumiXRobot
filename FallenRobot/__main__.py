@@ -96,15 +96,15 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="ᴍᴀɴᴀɢᴇᴍᴇɴᴛ", callback_data="help_back"),
-        InlineKeyboardButton(text="ᴛᴀɢɢᴇʀ", callback_data="zoney_"),
+        InlineKeyboardButton(text="ᴛᴀɢɢᴇʀ", callback_data="alone_"),
     ],
     [
         InlineKeyboardButton(text="ᴀʙᴏᴜᴛ", callback_data="fallen_"),
         InlineKeyboardButton(text="sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"),
     ],
     [
-        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"t.me/taitangamer"),
-        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", url=f"t.me/taitangamer"),
+        InlineKeyboardButton(text="ᴅᴇᴠᴇʟᴏᴩᴇʀ", url=f"https://t.me/ALONE_WAS_BOT"),
+        InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", url=f"https://github.com/TeamAloneOp/AloneRobot/fork"),
     ],
 ]
 
@@ -373,8 +373,8 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
             "\n*ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ sǫʟᴀʟᴄʜᴇᴍʏ ᴀɴᴅ ᴍᴏɴɢᴏᴅʙ ᴀs ᴅᴀᴛᴀʙᴀsᴇ.*"
             "\n\n────────────────────"
             f"\n*➻ ᴜᴩᴛɪᴍᴇ »* {uptime}"
-            f"\n*➻ ᴜsᴇʀs »* {sql.num_users()}"
-            f"\n*➻ ᴄʜᴀᴛs »* {sql.num_chats()}"
+            f"\n*➻ ᴜsᴇʀs »* 987{sql.num_users()}"
+            f"\n*➻ ᴄʜᴀᴛs »* 120{sql.num_chats()}"
             "\n────────────────────"
             "\n\n➲  ɪ ᴄᴀɴ ʀᴇꜱᴛʀɪᴄᴛ ᴜꜱᴇʀꜱ."
             "\n➲  ɪ ʜᴀᴠᴇ ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ꜱʏꜱᴛᴇᴍ."
@@ -388,7 +388,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="sᴜᴩᴩᴏʀᴛ", url=f"t.me/DOSTO_KI_PIYAR"
+                            text="sᴜᴩᴩᴏʀᴛ", url=f"t.me/AlonesHeaven"
                         ),
                         InlineKeyboardButton(
                             text="ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"
@@ -430,7 +430,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="ᴛᴇʟᴇɢʀᴀᴍ",
-                            url="https://t.me/itszoney",
+                            url="https://t.me/ALONE_WAS_BOT",
                         ),
                     ],
                     [
@@ -461,7 +461,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
 
 ʟɪᴋᴇ : ᴠᴏɪᴄᴇ ᴛᴀɢ, ғᴀɴᴅᴏᴍ ᴛᴇxᴛ ᴛᴀɢ, ᴅɪғғᴇʀᴇɴᴛ ʟᴀɴɢᴜᴀɢᴇ ᴛᴀɢ
  
-ᴄᴏᴅᴇ ʙʏ  [ᴢᴏɴᴇʏ](https://t.me/itszoney), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
+ᴄᴏᴅᴇ ʙʏ  [ᴧŁꪮɳᴇ](https://t.me/ALONE_WAS_BOT), ᴀʟʟ ʀɪɢʜᴛs ʀᴇsᴇʀᴠᴇᴅ.
 """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -479,9 +479,9 @@ def Source_about_callback(update: Update, context: CallbackContext):
             disable_web_page_preview=True,
         )
 
-def zoney_about_callback(update: Update, context: CallbackContext):
+def alone_about_callback(update: Update, context: CallbackContext):
      query = update.callback_query
-     if query.data == "zoney_":
+     if query.data == "alone_":
          query.message.edit_text(
             text=f"""
 *👀 ʜᴇʏ ʙᴀʙʏ 🖤*\n\n🌺 ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ  {dispatcher.bot.first_name}  ʟᴏᴠᴇʟʏ ᴄᴏᴍᴍᴜɴɪᴛʏ! 
@@ -496,12 +496,12 @@ def zoney_about_callback(update: Update, context: CallbackContext):
                         
                  InlineKeyboardButton(
                     text="ɴᴏʀᴍᴀʟ ᴛᴀɢ",
-                    callback_data="zoney_1",
+                    callback_data="alone_1",
                 ),
             
                 InlineKeyboardButton(
                     text="sᴘᴇᴄɪᴀʟ ᴛᴀɢ",
-                    callback_data="zoney_2",
+                    callback_data="alone_2",
                 ),
             ],
                     [
@@ -510,7 +510,7 @@ def zoney_about_callback(update: Update, context: CallbackContext):
                 ]
            ),
         )
-     elif query.data == "zoney_1":
+     elif query.data == "alone_1":
                 query.message.edit_text(
                    text=f"* ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ Tᴀɢ Aʟʟ: *"
                    f"""
@@ -528,12 +528,12 @@ Only for admins
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="◁", callback_data="zoney_"),
+                        InlineKeyboardButton(text="◁", callback_data="alone_"),
                     ]
                 ]
             ),
         )
-     elif query.data == "zoney_2":
+     elif query.data == "alone_2":
          query.message.edit_text(
              text=f"*sᴘᴇᴄɪᴀʟ ᴛᴀɢɢᴇʀ*"
              f"""
@@ -560,12 +560,12 @@ Only for admins
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="◁", callback_data="zoney_"),
+                        InlineKeyboardButton(text="◁", callback_data="alone_"),
                     ]
                 ]
             ),
         )
-     elif query.data == "zoney_back":
+     elif query.data == "alone_back":
         first_name = update.effective_user.first_name
         query.message.edit_text(
             PM_START_TEXT.format(escape_markdown(first_name), (START_IMG), BOT_NAME),
@@ -860,8 +860,8 @@ def main():
     source_callback_handler = CallbackQueryHandler(
         Source_about_callback, pattern=r"source_", run_async=True
     )
-    zoney_callback_handler = CallbackQueryHandler(
-       zoney_about_callback, pattern=r"zoney_", run_async=True
+    alone_callback_handler = CallbackQueryHandler(
+       alone_about_callback, pattern=r"alone_", run_async=True
     )
 
     migrate_handler = MessageHandler(Filters.status_update.migrate, migrate_chats)
@@ -870,7 +870,7 @@ def main():
     dispatcher.add_handler(help_handler)
     dispatcher.add_handler(about_callback_handler)
     dispatcher.add_handler(source_callback_handler)
-    dispatcher.add_handler(zoney_callback_handler)
+    dispatcher.add_handler(alone_callback_handler)
     dispatcher.add_handler(settings_handler)
     dispatcher.add_handler(help_callback_handler)
     dispatcher.add_handler(settings_callback_handler)
