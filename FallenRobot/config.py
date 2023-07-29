@@ -11,18 +11,18 @@ class Config(object):
 
     EVENT_LOGS = ()  # Event logs channel to note down important bot level events
 
-    MONGO_DB_URI = "mongodb+srv://rr:rr@cluster0.5pjchfv.mongodb.net/?retryWrites=true&w=majority"  # Get ths value from cloud.mongodb.com
+    MONGO_DB_URI = ""  # Get ths value from cloud.mongodb.com
 
     # Telegraph link of the image which will be shown at start command.
-    START_IMG = "https://te.legra.ph/file/725b20e82c195163a6fc0.jpg"
+    START_IMG = "https://te.legra.ph/file/eb32558d6248210826c25.jpg"
 
-    SUPPORT_CHAT = "DOSTO_KI_PIYAR"  # Your Telegram support group chat username where your users will go and bother you
+    SUPPORT_CHAT = "AlonesHeaven"  # Your Telegram support group chat username where your users will go and bother you
 
-    TOKEN = "6581320481:AAGt5mrZ63M3dHvzZO5iaypFr0JP4jV3MAg"  # Get bot token from @BotFather on Telegram
+    TOKEN = ""  # Get bot token from @BotFather on Telegram
 
     TIME_API_KEY = "41W425DBL510"  # Get this value from https://timezonedb.com/api
 
-    OWNER_ID = 6060534504  # User id of your telegram account (Must be integer)
+    OWNER_ID = 6079943111  # User id of your telegram account (Must be integer)
 
     # Optional fields
     BL_CHATS = []  # List of groups that you want blacklisted.
