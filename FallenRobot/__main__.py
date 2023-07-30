@@ -400,7 +400,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="sᴏᴜʀᴄᴇ",
-                            url=f"t.me/taitangamer",
+                            url=f"https://github.com/TeamAloneOp/AloneRobot/fork",
                         ),
                     ],
                     [
